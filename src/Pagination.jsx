@@ -15,7 +15,7 @@ const Pagination = () => {
         setTableData(data);
         console.log(data);
       })
-      .catch((error) => console.error("failed to fetch data", error));
+      .catch((error) => alert("failed to fetch data", error));
   }, []);
 
   const handlePrevious = (e) => {
